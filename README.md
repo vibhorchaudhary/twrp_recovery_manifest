@@ -1,5 +1,5 @@
 #Setting up a minimal tree for building TWRP
-##Android 4.4 branch
+##Android 5.0 branch
 
 ###To initialize the main repository:
 
