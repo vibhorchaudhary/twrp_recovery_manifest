@@ -9,41 +9,41 @@
            review="gerrit.omnirom.org"
            fetch="https://github.com/omnirom" />
 
-  <default revision="refs/tags/android-4.4.3_r1.1"
+  <default revision="refs/tags/android-5.0.2_r1"
            remote="aosp"
            sync-j="4" 
 	   sync-c="true" />
 
-  <project path="build" name="android_build" remote="omnirom" revision="android-4.4" groups="pdk" >
+  <project path="build" name="android_build" remote="omnirom" revision="android-5.0" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="android" name="android" remote="omnirom" revision="android-4.4" />
+  <project path="android" name="android" remote="omnirom" revision="android-5.0" />
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
-  <project path="bionic" name="android_bionic" remote="omnirom" revision="android-4.4" />
-  <project path="bootable/recovery" name="android_bootable_recovery" remote="omnirom" revision="android-4.4"/>
+  <project path="bionic" name="android_bionic" remote="omnirom" revision="android-5.0" />
+  <project path="bootable/recovery" name="android_bootable_recovery" remote="omnirom" revision="android-5.0"/>
   <project path="device/common" name="device/common" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" />
   <project path="device/generic/common" name="device/generic/common" groups="pdk" />
   <project path="external/bison" name="platform/external/bison" groups="pdk" />
   <project path="external/blktrace" name="platform/external/blktrace" />
   <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" />
-  <project path="external/busybox" name="android_external_busybox" remote="omnirom" revision="android-4.4" />
+  <project path="external/busybox" name="android_external_busybox" remote="omnirom" revision="android-5.0" />
   <project path="external/bzip2" name="platform/external/bzip2" groups="pdk" />
   <project path="external/checkpolicy" name="platform/external/checkpolicy" groups="pdk" />
-  <project path="external/clang" name="android_external_clang" remote="omnirom" revision="android-4.4" />
+  <project path="external/clang" name="android_external_clang" remote="omnirom" revision="android-5.0" />
   <project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" />
-  <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="omnirom" revision="android-4.4" />
-  <project path="external/exfat" name="android_external_exfat" remote="omnirom" revision="android-4.4" />
+  <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="omnirom" revision="android-5.0" />
+  <project path="external/exfat" name="android_external_exfat" remote="omnirom" revision="android-5.0" />
   <project path="external/expat" name="platform/external/expat" groups="pdk" />
-  <project path="external/f2fs-tools" name="android_external_f2fs-tools" remote="omnirom" revision="android-4.4" />
+  <project path="external/f2fs-tools" name="android_external_f2fs-tools" remote="omnirom" revision="android-5.0" />
   <project path="external/fdlibm" name="platform/external/fdlibm" />
   <project path="external/freetype" name="platform/external/freetype" groups="pdk" />
   <project path="external/fsck_msdos" name="platform/external/fsck_msdos" />
-  <project path="external/fuse" name="android_external_fuse" remote="omnirom" revision="android-4.4" />
+  <project path="external/fuse" name="android_external_fuse" remote="omnirom" revision="android-5.0" />
   <project path="external/genext2fs" name="platform/external/genext2fs" />
-  <project path="external/icu4c" name="android_external_icu4c" remote="omnirom" revision="android-4.4" />
-  <project path="external/jpeg" name="android_external_jpeg" remote="omnirom" revision="android-4.4" />
+  <project path="external/icu4c" name="android_external_icu4c" remote="omnirom" revision="android-5.0" />
+  <project path="external/jpeg" name="android_external_jpeg" remote="omnirom" revision="android-5.0" />
   <project path="external/kernel-headers" name="platform/external/kernel-headers" />
   <project path="external/libcap-ng" name="platform/external/libcap-ng" />
   <project path="external/libffi" name="platform/external/libffi" />
@@ -59,24 +59,24 @@
   <project path="external/libxml2" name="platform/external/libxml2" />
   <project path="external/libxslt" name="platform/external/libxslt" />
   <project path="external/linux-tools-perf" name="platform/external/linux-tools-perf" />
-  <project path="external/llvm" name="android_external_llvm" remote="omnirom" revision="android-4.4" />
+  <project path="external/llvm" name="android_external_llvm" remote="omnirom" revision="android-5.0" />
   <project path="external/lzma" name="platform/external/lzma" />
   <project path="external/mesa3d" name="platform/external/mesa3d" />
   <project path="external/mksh" name="platform/external/mksh" groups="pdk" />
   <project path="external/mtpd" name="platform/external/mtpd" />
-  <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="omnirom" revision="android-4.4"/>
+  <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="omnirom" revision="android-5.0"/>
   <project path="external/opencv" name="platform/external/opencv" />
   <project path="external/openfst" name="platform/external/openfst" />
   <project path="external/openssh" name="platform/external/openssh" />
-  <project path="external/openssl" name="android_external_openssl" remote="omnirom" revision="android-4.4" />
+  <project path="external/openssl" name="android_external_openssl" remote="omnirom" revision="android-5.0" />
   <project path="external/oprofile" name="platform/external/oprofile" />
   <project path="external/pixman" name="platform/external/pixman" />
   <project path="external/regex-re2" name="platform/external/regex-re2" />
   <project path="external/safe-iop" name="platform/external/safe-iop" groups="pdk" />
   <project path="external/scrypt" name="platform/external/scrypt" groups="pdk" />
-  <project path="external/sepolicy" name="android_external_sepolicy" remote="omnirom" revision="android-4.4" />
+  <project path="external/sepolicy" name="android_external_sepolicy" remote="omnirom" revision="android-5.0" />
   <project path="external/sil-fonts" name="platform/external/sil-fonts" />
-  <project path="external/skia" name="android_external_skia" remote="omnirom" revision="android-4.4" />
+  <project path="external/skia" name="android_external_skia" remote="omnirom" revision="android-5.0" />
   <project path="external/smack" name="platform/external/smack" />
   <project path="external/sqlite" name="platform/external/sqlite" groups="pdk" />
   <project path="external/srtp" name="platform/external/srtp" />
@@ -89,10 +89,10 @@
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/yaffs2" name="platform/external/yaffs2" groups="pdk" />
   <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
-  <project path="frameworks/native" name="android_frameworks_native" remote="omnirom" revision="android-4.4" />
-  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="omnirom" revision="android-4.4" />
-  <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="omnirom" revision="android-4.4" />
-  <project path="libcore" name="android_libcore" remote="omnirom" revision="android-4.4" />
+  <project path="frameworks/native" name="android_frameworks_native" remote="omnirom" revision="android-5.0" />
+  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="omnirom" revision="android-5.0" />
+  <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="omnirom" revision="android-5.0" />
+  <project path="libcore" name="android_libcore" remote="omnirom" revision="android-5.0" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk-java" />
   <project path="ndk" name="platform/ndk" />
   <project path="pdk" name="platform/pdk" groups="pdk" />
@@ -109,11 +109,11 @@
   <project path="prebuilts/runtime" name="platform/prebuilts/runtime" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" />
-  <project path="system/core" name="android_system_core" remote="omnirom" revision="android-4.4" />
-  <project path="system/extras" name="android_system_extras" remote="omnirom" revision="android-4.4" />
+  <project path="system/core" name="android_system_core" remote="omnirom" revision="android-5.0" />
+  <project path="system/extras" name="android_system_extras" remote="omnirom" revision="android-5.0" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
-  <project path="system/vold" name="android_system_vold" remote="omnirom" revision="android-4.4" />
+  <project path="system/vold" name="android_system_vold" remote="omnirom" revision="android-5.0" />
   <project path="tools/external/fat32lib" name="platform/tools/external/fat32lib" groups="tools" />
-  <project path="vendor/omni" name="android_vendor_omni" remote="omnirom" revision="android-4.4" />
+  <project path="vendor/omni" name="android_vendor_omni" remote="omnirom" revision="android-5.0" />
 
 </manifest>
