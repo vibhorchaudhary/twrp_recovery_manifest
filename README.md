@@ -1,48 +1,23 @@
-Submitting Patches
-------------------
-Our ROM is open source, and patches are always welcome!
-You can send patches by using these commands:
+#Setting up a minimal tree for building TWRP
+##Android 4.4 branch
 
-    cd <project>
-    <make edits>
-    git add -A
-    git commit -m "commit message"
-    git push ssh://<username>@gerrit.omnirom.org:29418/<project> HEAD:refs/for/<branch>
+###To initialize the main repository:
 
-Register at gerrit.omnirom.org and use the username that you registered there in the above command
+````
+repo init -u https://github.com/marduk191/recovery_manifest.git -b android-4.4
+````
+Then add any device trees/kernels you need to a file (one XML for each device) and add them to the .repo/local_manifests folder of your initialized repo folder.
 
-Commit your patches in a single commit. Squash multiple commit using this command: git rebase -i HEAD~<# of commits>
+Once added:
+````
+repo sync
+````
+Done
 
-If you are going to make extra additions, just repeat steps (Don't start a new patch), but instead of git commit -m
-use git commit --amend. Gerrit will recognize it as a new patchset.
-
-To view the status of your and others patches, visit [OMNI ROM Code Review](https://gerrit.omnirom.org)
-
-
-Getting Started
----------------
-
-To get started with OMNI ROM, you'll need to get
-familiar with [Git and Repo](http://source.android.com/download/using-repo).
-
-To initialize your local repository using the OMNIROM trees, use a command like this:
-
-    repo init -u git://github.com/omnirom/android.git -b <branch>
-
-Then to sync up:
-
-    repo sync
-
-Then to build:
-
-     cd <source-dir>; . build/envsetup.sh; brunch <device_name>
-
-
-If you need more information or a more detailed guide, click [here to see our wiki.](http://docs.omnirom.org)
-
-Our official IRC Channels are hosted on Freenode:
-
-[#omnirom - USERS](http://webchat.freenode.net/?channels=omnirom/)
-
-[#omni - DEVELOPERS](http://webchat.freenode.net/?channels=omni/)
-
+To build recovery:
+````
+. build/envsetup.sh
+lunch (devicename)
+make installclean
+time make recoveryimage
+````
