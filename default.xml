@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
+  <remote name="github"
+          fetch="git://github.com" />
+  
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com" />
@@ -21,7 +23,6 @@
   <project path="android" name="android" remote="omnirom" revision="android-4.4" />
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="bionic" name="android_bionic" remote="omnirom" revision="android-4.4" />
-  <project path="bootable/recovery" name="android_bootable_recovery" remote="omnirom" revision="android-4.4"/>
   <project path="device/common" name="device/common" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" />
   <project path="device/generic/common" name="device/generic/common" groups="pdk" />
@@ -41,6 +42,7 @@
   <project path="external/freetype" name="platform/external/freetype" groups="pdk" />
   <project path="external/fsck_msdos" name="platform/external/fsck_msdos" />
   <project path="external/fuse" name="android_external_fuse" remote="omnirom" revision="android-4.4" />
+  <project path="external/gcc-demangle" name="Cyanogenmod/android_external_gcc-demangle" remote="github" revision="staging/cm-12.0-caf" />
   <project path="external/genext2fs" name="platform/external/genext2fs" />
   <project path="external/icu4c" name="android_external_icu4c" remote="omnirom" revision="android-4.4" />
   <project path="external/jpeg" name="android_external_jpeg" remote="omnirom" revision="android-4.4" />
