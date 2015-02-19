@@ -1,6 +1,6 @@
 #Setting up a minimal tree for building TWRP
 ##Android 4.4 branch
-
+This repo is ~2.6GB
 ###To initialize the main repository:
 
 ````
