@@ -26,6 +26,7 @@
   <project path="device/common" name="device/common" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" />
   <project path="device/generic/common" name="device/generic/common" groups="pdk" />
+  <project path="device/generic/goldfish" name="CyanogenMod/android_device_generic_goldfish" remote="github" revision="cm-11.0" />
   <project path="external/bison" name="platform/external/bison" groups="pdk" />
   <project path="external/blktrace" name="platform/external/blktrace" />
   <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" />
