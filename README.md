@@ -21,3 +21,8 @@ lunch (devicename)
 make installclean
 time make recoveryimage
 ````
+
+
+Devices tested:
+Pantech Burst p9070 (presto)
+HTC Desire 610 (a3ul)
