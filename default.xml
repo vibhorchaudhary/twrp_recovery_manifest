@@ -15,12 +15,6 @@
            review="gerrit.omnirom.org"
            fetch="https://github.com/omnirom" />
 
-  <remote  name="og"
-           fetch="https://github.com/lollipop-og" />
-
-  <remote  name="sndnvaps"
-           fetch="https://github.com/sndnvaps" />
-
   <default revision="refs/tags/android-5.1.0_r1"
            remote="aosp"
            sync-c="true"
@@ -34,7 +28,6 @@
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="bionic" name="android_bionic" remote="omnirom" revision="android-5.1" groups="pdk" />
   <project path="bootable/recovery" name="android_bootable_recovery" remote="omnirom" revision="android-5.1" groups="pdk-cw-fs"/>
-  <!-- <project path="bootable/recovery" name="android_bootable_recovery_twrp" remote="sndnvaps" revision="android-5.0-cn-dev"/>-->
   <project path="device/common" name="device/common" groups="pdk-cw-fs" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" />
   <project path="device/generic/common" name="device/generic/common" groups="pdk" />
@@ -57,7 +50,7 @@
   <project path="external/fuse" name="android_external_fuse" remote="omnirom" revision="android-5.1" />
   <project path="external/gcc-demangle" name="platform/external/gcc-demangle" groups="pdk" />
   <project path="external/genext2fs" name="platform/external/genext2fs" groups="pdk-cw-fs" />
-  <!--<project path="external/icu" name="platform/external/icu" groups="pdk" />-->
+  <project path="external/icu" name="platform/external/icu" groups="pdk" />
   <project path="external/jpeg" name="android_external_jpeg" remote="omnirom" revision="android-5.1" groups="pdk-cw-fs" />
   <project path="external/kernel-headers" name="platform/external/kernel-headers" groups="pdk-cw-fs" />
   <project path="external/libcap-ng" name="platform/external/libcap-ng" groups="pdk-cw-fs" />
@@ -83,7 +76,7 @@
   <project path="external/opencv" name="platform/external/opencv" groups="pdk-cw-fs" />
   <project path="external/openssl" name="android_external_openssl" remote="omnirom" revision="android-5.1" groups="pdk" />
   <project path="external/oprofile" name="platform/external/oprofile" groups="pdk-cw-fs" />
-  <!--<project path="external/pcre" name="platform/external/pcre" groups="pdk-cw-fs" />-->
+  <project path="external/pcre" name="platform/external/pcre" groups="pdk-cw-fs" />
   <project path="external/pixman" name="platform/external/pixman" groups="pdk-cw-fs" />
   <project path="external/regex-re2" name="platform/external/regex-re2" groups="pdk-cw-fs" />
   <project path="external/safe-iop" name="platform/external/safe-iop" groups="pdk" />
@@ -116,10 +109,10 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" groups="pdk,linux,arm" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6" groups="pdk,linux" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" groups="pdk,linux" />
-  <!--<project path="prebuilts/misc" name="platform/prebuilts/misc" groups="pdk,tradefed" />-->
+  <project path="prebuilts/misc" name="platform/prebuilts/misc" groups="pdk,tradefed" />
   <project path="prebuilts/ndk" name="platform/prebuilts/ndk" groups="pdk" />
   <project path="prebuilts/python/linux-x86/2.7.5" name="platform/prebuilts/python/linux-x86/2.7.5" groups="linux,pdk,pdk-cw-fs" />
-  <!--<project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk,tradefed" />-->
+  <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk,tradefed" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs" />
   <project path="system/core" name="android_system_core" remote="omnirom" revision="android-5.1" groups="pdk" />
