@@ -10,7 +10,7 @@ Then add any device trees/kernels you need to a file (one XML for each device) a
 
 Once added:
 ````
-repo sync
+repo sync -c --no-tags
 ````
 Done
 
@@ -19,5 +19,5 @@ To build recovery:
 . build/envsetup.sh
 lunch (devicename)
 make installclean
-time make recoveryimage
+time make recoveryimage showcommands
 ````
