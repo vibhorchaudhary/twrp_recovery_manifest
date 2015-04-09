@@ -4,13 +4,13 @@
 ###To initialize the main repository:
 
 ````
-repo init -u https://github.com/notyal/twrp_recovery_manifest.git -b android-5.1
+repo init -u https://github.com/sultanqasim/twrp_recovery_manifest.git -b android-5.1
 ````
 Then add any device trees/kernels you need to a file (one XML for each device) and add them to the .repo/local_manifests folder of your initialized repo folder.
 
 Once added:
 ````
-repo sync -c --no-tags
+repo sync
 ````
 Done
 
