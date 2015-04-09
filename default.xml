@@ -48,6 +48,7 @@
   <project path="external/gcc-demangle" name="platform/external/gcc-demangle" groups="pdk" />
   <project path="external/genext2fs" name="platform/external/genext2fs" groups="pdk-cw-fs" />
   <project path="external/icu" name="platform/external/icu" groups="pdk" />
+  <project path="external/jemalloc" name="platform/external/jemalloc" groups="pdk-cw-fs" />
   <project path="external/jpeg" name="android_external_jpeg" remote="omnirom" revision="android-5.1" groups="pdk-cw-fs" />
   <project path="external/kernel-headers" name="platform/external/kernel-headers" groups="pdk-cw-fs" />
   <project path="external/libcap-ng" name="platform/external/libcap-ng" groups="pdk-cw-fs" />
