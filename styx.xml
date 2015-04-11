@@ -2,5 +2,5 @@
 <manifest>
     <project name="sultanqasim/android_device_motorola_surnia" path="device/motorola/surnia" remote="github" revision="android-5.0" />
     <project name="sultanqasim/android_device_motorola_otus" path="device/motorola/otus" remote="github" revision="android-5.0" />
-    <project name="sultanqasim/android_kernel_surnia" path="kernel/motorola/msm8916" remote="github" revision="squid_qcom" />
+    <project name="sultanqasim/android_kernel_surnia" path="kernel/motorola/msm8916" remote="github" revision="squid_twrp" />
 </manifest>
