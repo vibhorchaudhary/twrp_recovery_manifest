@@ -3,4 +3,5 @@
     <project name="sultanqasim/android_device_motorola_surnia" path="device/motorola/surnia" remote="github" revision="twrp" />
     <project name="sultanqasim/android_device_motorola_otus" path="device/motorola/otus" remote="github" revision="android-5.0" />
     <project name="sultanqasim/android_kernel_surnia" path="kernel/motorola/msm8916" remote="github" revision="squid_twrp" />
+    <project name="sultanqasim/android_kernel_motorola_otus" path="kernel/motorola/msm8610" remote="github" revision="master" />
 </manifest>
