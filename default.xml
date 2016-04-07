@@ -122,7 +122,8 @@
   <project path="tools/external/fat32lib" name="platform/tools/external/fat32lib" groups="tools" />
   <project path="vendor/omni" name="android_vendor_omni" remote="omnirom" revision="android-5.1" />
 
-  <!-- TWRP Device -->
+  <!-- TWRP Device's -->
   <project path="device/xiaomi/kenzo" name="vibhu0009/device_xiaomi_kenzo-twrp" remote="github" revision="twrp" />
+  <project path="device/micromax/pace" name="vibhu0009/device_micromax_pace-twrp" remote="github" revision="twrp" />
 
 </manifest>
