@@ -121,4 +121,8 @@
   <project path="system/vold" name="android_system_vold" remote="omnirom" revision="android-5.1" />
   <project path="tools/external/fat32lib" name="platform/tools/external/fat32lib" groups="tools" />
   <project path="vendor/omni" name="android_vendor_omni" remote="omnirom" revision="android-5.1" />
+
+  <!-- TWRP Device -->
+  <project path="device/xiaomi/kenzo" name="vibhu0009/device_xiaomi_kenzo-twrp" remote="github" revision="twrp" />
+
 </manifest>
